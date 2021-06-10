@@ -119,36 +119,8 @@ h5{
     text-decoration-style: solid;
 }
 
-/* [FULL SCREEN SPINNER] */
-#spinner-back, #spinner-front {
-  position: fixed;
-  width: 100vw;
-  transition: all 1s;
-  visibility: hidden;
-  opacity: 0;
-}
-#spinner-back {
-  z-index: 998;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
-}
-#spinner-front {
-  z-index: 999;
-  color: #fff;
-  text-align: center;
-  margin-top: 50vh;
-  transform: translateY(-50%);
-}
-#spinner-back.show, #spinner-front.show {
-  visibility: visible;
-  opacity: 1;
-}
 
-/* [DOES NOT QUITE MATTER] */
-html, body {
-  margin: 0;
-  padding: 0;
-}
+
       </style>
  
  
@@ -156,11 +128,7 @@ html, body {
   
     <body id="page-top">
         <!--loader-->
-    <div id="spinner-back"></div>
-<div id="spinner-front">
-  <img src="ajax-loader.gif"/><br>
-  Now loading...
-</div>
+ 
  
        
         <!-- Navigation-->
@@ -230,7 +198,7 @@ html, body {
                         Well, i am a software developer based in Nairobi. Passion and curiosity drove me into this field having identified the potential software development holds in transforming Africa and the whole World. My daily work involves listening to understand my clients needs, business strategies and requirements, keenly analyze them to be able to come up with the appropriate software solutions that address the client needs as well as provide total end-user satisfation. I produce high quality and efficient software systems that complies with all of today's standards in a very timely manner.
                           </blockquote>
                       </div>
-                <div class="vertical"></div>
+                
                 <div class="col"> 
                            <blockquote id="yann1">
                             <i class="fa fa-user fa-3x" aria-hidden="true"></i>
